@@ -67,7 +67,7 @@ while carryOn:
         ball.velocity[0] = -ball.velocity[0]
     if ball.rect.x<=0:
         ball.velocity[0] = -ball.velocity[0]
-        scoreB -= 1
+        scoreB += 1
     if ball.rect.y>490:wwss
         ball.velocity[1] = -ball.velocity[1]
     if ball.rect.y<0:
